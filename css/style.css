@@ -1,0 +1,20 @@
+body{
+    font:15px Sans-serif, Arial;
+    padding:0;
+    margin:0;
+    background-color:white;
+}
+h3{
+    font:20px Indie Flower, cursive;
+    color: #FD4D40;
+}
+h1{
+    font:48px
+}
+/*global*/
+.container{
+    width:80%;
+    margin:auto;
+    overflow: hidden;
+}
+
