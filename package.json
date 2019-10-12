@@ -1,0 +1,23 @@
+{
+  "name": "kiddy",
+  "version": "1.0.0",
+  "description": "css test project",
+  "main": "index.html",
+  "scripts": {
+    "test": "test",
+    "start": "browser-sync start -s -f . --no-notify --host 127.0.0.1 --port 9000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LenkaJandova/kiddy.git"
+  },
+  "author": "Lenka Jandova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LenkaJandova/kiddy/issues"
+  },
+  "homepage": "https://github.com/LenkaJandova/kiddy#readme",
+  "dependencies": {
+    "browser-sync": "^2.26.7"
+  }
+}
