@@ -31,7 +31,7 @@ button{
     border: 1px;
     cursor:pointer;
     letter-spacing: 3.2px;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
 }
 /*global*/
 .container{
@@ -44,8 +44,9 @@ button{
 }
 .showcase h1{
     color:#fff;
-    font-size: 96px;
+    font-size: 48px;
     font-weight:700;
+    margin-top: 0px;
 }
 .showcase h2{
     color:#fff;
@@ -57,14 +58,17 @@ button{
 #navbar{
     text-align: left;
 }
+#navbar ul{
+    padding: 0px;
+}
 #navbar li{
     display:inline;
-    color: black;
 }
 #navbar li a{
     padding:20px 0px;
     margin:0px 15px;
     text-decoration:none;
+    color: black;
 }
 .menu{
     background:#fff;
@@ -73,17 +77,38 @@ button{
     width: 80%;
     margin:auto;
 }
-.top{
+/*.top-left{
+    float: left;
+    margin-right: auto;
     box-sizing: border-box;
-    display: flex;
+    position: relative;
+}*/
+.top-left{
+    width: 20%;
+    float: left;
+}
+.container h4{
+    font-size:43px;
+    font-weight:400;
+    color:#fff;
+    margin-block-start:20px;
+}
+.top{
     float:right;
-    margin-left: auto;
+    margin-top: 20px;
+    display: flex;
+    width: 35%;
 }
 .location{
     color:#fff;
     align-items: center;
-    box-sizing: border-box;
 }
 .opening-hours{
     color:#fff;
+    float: right;
+    padding-left: 30px;
+}
+header h3{
+    padding-top: 50px;
+    margin-bottom: 0px;
 }
