@@ -112,3 +112,53 @@ header h3{
     padding-top: 50px;
     margin-bottom: 0px;
 }
+/*boxes*/
+#boxes{
+    box-sizing: border-box;
+    color: #fff;
+    float: left;
+}
+#boxes h3{
+    font-family:'DM Sans', Arial;
+    color: #fff; 
+}
+.box-red{
+    width: 23%;
+    background-color: #fd4d40;
+    text-align: center;
+    padding: 40px;
+    float: left;
+    margin: 40px 10px;
+}
+.box-yellow{
+    width: 23%;
+    background-color: #fdb62f;
+    text-align: center;
+    padding: 40px;
+    float: left;
+    margin: 40px 10px;
+}
+.box-green{
+    width: 23%;
+    background-color: #16c3b0;
+    text-align: center;
+    padding: 40px;
+    float: left;
+    margin: 40px 10px;
+}
+.icon-wrap{
+    color:/* #fff;*/ #fd4d40;
+    display: block;
+    width: 80px;
+    height:80px;
+    border-radius:50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -70px;
+}
+.icon{
+    color:#16c3b0;
+    width: 30px;
+    height:30px;
+    padding-top: 20px;
+}
