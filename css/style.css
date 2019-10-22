@@ -155,6 +155,10 @@ header h3{
     margin-left: auto;
     margin-right: auto;
     margin-top: -70px;
+    background-image: url("../img/kid_transparent.webp");/**/
+    background-size: 70px 70px;
+    background-position: center;
+
 }
 .icon{
     color:#16c3b0;
@@ -162,3 +166,83 @@ header h3{
     height:30px;
     padding-top: 20px;
 }
+#about{
+    display: flex;
+}
+#about div{
+    flex: 1;
+    flex-direction: row;
+}
+
+#packages{
+    display:flex;
+    text-align: center;
+}
+#packages button{
+    border-radius: 30px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+#packages button a{
+    text-decoration: none;
+    color: black;
+}
+#packages h3{
+    font-family:'DM Sans', Arial;
+}
+#packages img{
+    width: 80px;
+    padding-top: 30px;
+}
+.turqoise-wrap{
+    background-color:#17a2b8;
+}
+.turqoise-wrap h1{
+    text-align: center;
+    color: #fff;
+    font-size: 32px;
+    font-weight: 300;
+}
+.turqoise-wrap h3{
+    text-align: center;
+}
+.box2-a{
+    flex:1;
+    background-color: #fff;
+    margin:20px 20px 60px;
+    border-radius: 7px;
+}
+.box2-a h3{
+    color: #16c3b0;
+}
+.box2-a button{
+    background-color: #dc3545;
+}
+.box2-b{
+    flex:1;
+    background-color: #fff;
+    margin:20px 20px 60px;
+    border-radius: 7px;
+}
+.box2-b h3{
+    color: #71bc42;
+}    
+.box2-b button{
+    background-color: #ffc107;
+}
+.box2-c{
+    flex:1;
+    background-color: #fff;
+    margin:20px 20px 60px;
+    border-radius: 7px;
+}
+.box2-c h3{
+    color: #dc3545;
+}
+.box2-c button{
+    background-color: #71bc42;
+}
+/*doresit ikony v predesle sekci, 
+sekce about us ma spatne flex, ykusit v extra soubru*/
