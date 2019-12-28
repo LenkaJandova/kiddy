@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "test": "test",
-    "start": "browser-sync start -s -f . --no-notify --host 127.0.0.1 --port 9000"
+    "start": "browser-sync start -s -f . --no-notify --host 127.0.0.1 --port 8080"
   },
   "repository": {
     "type": "git",
